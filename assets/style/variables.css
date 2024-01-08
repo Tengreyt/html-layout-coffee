@@ -1,0 +1,14 @@
+:root{
+    /* background */
+    --primary:#22222F;
+    --secondary:#C7A17A;
+    --danger:#14141D;
+    /* background */
+    /* colors */
+    --secondary-text:#C7A17A;
+    --light:#fff;
+    --dark:#32323D;
+    /* colors */
+    /* font-size */
+    --poragroph:18px;
+}

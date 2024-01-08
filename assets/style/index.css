@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #020204;
+    font-family: 'Jost', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* products card */
+.container-card{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* products card */

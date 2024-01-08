@@ -1,0 +1,33 @@
+.footer {
+    padding-top: 79px;
+    padding-bottom: 80px;
+}
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-nav-contacts{
+    color: var(--light);
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer-message{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-message-text{
+    color: var(--light);
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}

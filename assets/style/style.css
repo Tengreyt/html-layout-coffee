@@ -1,0 +1,9 @@
+@import url('./variables.css');
+@import url('/assets/fonts/fonts.css');
+@import url('./app/head.css');
+@import url('./index.css');
+@import url('./section/first-section.css');
+@import url('./section/banner.css');
+@import url('./section/products.css');
+@import url('./section/news-group.css');
+@import url('./app/footer.css');

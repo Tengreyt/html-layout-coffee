@@ -1,0 +1,28 @@
+.banner{
+    margin-bottom: 80px;
+}
+.banner-row{
+    display: flex;
+    flex-direction:row;
+    background: #14141D;
+    width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.banner-inner{
+    padding: 30px 73px 42px 29px;
+}
+.banner-title{
+    color: var(--light);
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.banner-sub-title{
+    padding-top: 15px;
+    color: #DFDFDF;
+    font-size: var(--poragroph);
+    font-weight: 400;
+    line-height: normal;
+}

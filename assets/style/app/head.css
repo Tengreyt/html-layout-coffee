@@ -1,0 +1,104 @@
+/* ========header-top=========== */
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.languags{
+    display: flex;
+    gap: 10px;
+}
+.ru{
+    color: #FFF;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.en{
+    color: var( --secondary-text);
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.phone{
+    color: var(--light);
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.line-bottom{
+    border-bottom: 1px solid var(--dark);
+}
+/* ================header-top ================*/
+
+/* ===============header-row============== */
+.header-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 33px;
+}
+.nav{
+    display: flex;
+    gap: 35px;
+}
+.nav-link-focus{
+    color: var(--secondary-text);
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav-link{
+    color: var(--light);
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+}
+.nav-link:hover{
+    color: var(--secondary-text);
+}
+.logo{
+    display: flex;
+    margin-right: 250px;
+    cursor: pointer;
+}
+.logo-img{
+    width: 58px;
+    height: 54.42px;
+}
+/* ===============header-row============== */
+
+/* ==============icons===========-========== */
+.icons{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    gap: 30px;
+}
+.icon-link{
+    cursor: pointer;
+}
+.header-link-event{
+    width: 6px;
+    height: 6px;
+    background: var(--secondary);
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    left: 128px;
+}
