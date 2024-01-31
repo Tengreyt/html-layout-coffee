@@ -1,4 +1,7 @@
 /* ========header-top=========== */
+header{
+    width: 100%;
+}
 .header-top{
     display: flex;
     flex-direction: row;

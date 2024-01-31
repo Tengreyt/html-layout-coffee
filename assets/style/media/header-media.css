@@ -1,0 +1,13 @@
+@media (min-width:1024px){
+    header{
+        width: 100%;
+    }
+    .header-top{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header-row{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
