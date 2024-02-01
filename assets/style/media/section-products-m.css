@@ -1,0 +1,10 @@
+@media (min-width:1024px){
+    .products-title{
+        text-align: start;
+        margin-left: 120px;
+    }
+    .products-card{
+        justify-content: center;
+    }
+
+}

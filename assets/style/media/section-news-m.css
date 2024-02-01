@@ -1,0 +1,11 @@
+@media (min-width:1024px){
+    .news-title{
+        margin-left: 120px;
+    }
+    .news-wrapper{
+        display: grid;
+        max-width:800px;
+        margin: 0 auto;
+        grid-template-columns:6fr 6fr;
+    }
+}

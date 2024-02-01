@@ -22,11 +22,9 @@
     margin-bottom: 20px; 
 }
 .news-item{
-    width: 386px;
-    height: 465px;
     background-color: var(--danger);
     border-radius: 10px;
-   cursor: pointer;
+    cursor: pointer;
 }
 .news-item:hover{
     background-color: #22222f;

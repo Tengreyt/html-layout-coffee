@@ -3,9 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-}
+
 body{
     background: #020204;
     font-family: 'Jost', sans-serif;

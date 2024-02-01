@@ -1,0 +1,11 @@
+@media (min-width:1024px){
+    .banner-row{
+        display: flex;
+        flex-direction: column;
+        width: 780px;
+        margin: 0 auto;
+    }
+    .banner-title{
+        font-size: 26px;
+    }
+}
