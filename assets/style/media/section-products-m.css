@@ -1,10 +1,30 @@
-@media (min-width:1024px){
+@media (max-width:1024px){
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
     .products-title{
         text-align: start;
-        margin-left: 120px;
+        margin-left: 120px;     
     }
     .products-card{
         justify-content: center;
     }
-
+}
+@media (max-width:768px){
+    .container{
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .card{
+        max-width: 365px;
+        min-height: 300px;
+    }
+    .products-card-img{
+        padding: 20px 110px 42px 110px;
+    }
+    .products-title{
+        text-align: start;
+        margin-left: 60px;
+    }
 }

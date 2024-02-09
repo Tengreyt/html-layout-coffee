@@ -19,6 +19,7 @@
     gap: 21px;
 }
 .news-block{
+    max-width: 386px;
     margin-bottom: 20px; 
 }
 .news-item{

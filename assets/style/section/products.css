@@ -18,8 +18,8 @@
 .card{
     border-radius: 10px;
     background: var(--danger);
-    width: 386px;
-    height: 372px;
+    max-width: 386px;
+    min-height: 372px;
     cursor: pointer;
 }
 .card:hover{

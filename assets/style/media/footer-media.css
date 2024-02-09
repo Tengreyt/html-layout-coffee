@@ -1,0 +1,9 @@
+@media (max-width:1024px){
+    .container{
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+    .footer-row{
+        padding: 0px 40px;
+    }
+}
