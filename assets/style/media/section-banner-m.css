@@ -1,8 +1,8 @@
 @media (min-width:1024px){
     .banner-row{
         display: flex;
-        flex-direction: column;
-        width: 780px;
+        flex-direction: row;
+        max-width: 1185px;
         margin: 0 auto;
     }
     .banner-title{
