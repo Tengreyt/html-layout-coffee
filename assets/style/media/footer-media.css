@@ -7,3 +7,32 @@
         padding: 0px 40px;
     }
 }
+@media (max-width:425px){
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer-row{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 0 10px;
+    }
+    .footer-logo-h{
+        width: 130px;
+    }
+    .footer-nav-contacts{
+        color: var(--light);
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .footer-message-text{
+        color: var(--light);
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}

@@ -19,3 +19,33 @@
         font-size: 40px;
     }
 }
+@media (max-width:425px){
+    .intro{
+        background-image: url('./assets/img/img-bg/bg-img.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .intro-title{
+        font-size: 30px;
+    }
+    .intro-text{
+        font-size: 14px;
+    }
+    .intro-actions{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn{
+        max-width: 220px;
+    }
+    .intro-btn{
+        color: var(--light);
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        padding: 20px 40px 20px 40px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

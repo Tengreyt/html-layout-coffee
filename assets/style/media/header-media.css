@@ -32,3 +32,25 @@
         font-size: 14px;
     }
 }
+@media (max-width:425px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header-link-event{
+        width: 6px;
+        height: 6px;
+        background: var(--secondary);
+        display: block;
+        border-radius: 50%;
+        position: absolute;
+        top: 72px;
+        left: 25px;
+    }
+}
