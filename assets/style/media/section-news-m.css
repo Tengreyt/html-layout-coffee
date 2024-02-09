@@ -31,3 +31,25 @@
         max-width: 325px;
     }
 }
+@media (max-width:425px){
+    .news-wrapper{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .container{
+        max-width: 425px;
+        margin:  0 auto;
+    }
+    .news-title{
+        margin-left: 60px;
+    }
+    .news-block{
+        max-width: 300px;
+        min-height: 300px;
+    }
+    .news-block img {
+        max-width: 300px;
+    }
+}

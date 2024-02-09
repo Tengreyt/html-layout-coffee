@@ -31,3 +31,14 @@
         padding: 30px 20px 40px 20px;
     }
 }
+@media (max-width:425px){
+    .banner-row{
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .banner-inner{
+        padding: 30px 10px 40px 10px;
+    }
+}

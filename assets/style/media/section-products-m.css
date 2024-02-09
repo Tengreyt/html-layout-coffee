@@ -28,3 +28,15 @@
         margin-left: 60px;
     }
 }
+@media (max-width:425px){
+    .card{
+        border-radius: 10px;
+        background: var(--danger);
+        max-width: 300px;
+        min-height: 372px;
+        cursor: pointer;
+    }
+    .products-card-img{
+        padding: 20px 100px 42px 100px;
+    }
+}

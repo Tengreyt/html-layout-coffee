@@ -36,3 +36,14 @@
         text-transform: uppercase;
     }
 }
+@media (max-width:425px){
+    .footer-logo-h{
+        width: 110px;
+    }
+    .footer-row{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        padding: 0 10px;
+    }
+}
